@@ -1,0 +1,11 @@
+a, a:visited {
+  color: $primary-color-inverse;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+main {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 20px;
+}

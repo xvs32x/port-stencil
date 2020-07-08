@@ -1,0 +1,32 @@
+:host, .images-box {
+  display: block;
+
+  .title {
+    font-weight: bold;
+    padding: 10px 10px 5px 10px;
+    text-transform: uppercase;
+  }
+
+  .tags {
+    padding: 5px 10px 10px 10px;
+  }
+
+  .preview {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .images-box, .main-card {
+    @include card;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: 650px) {
+    .title {
+      display: block;
+      line-height: 20px;
+      padding: 5px 10px;
+    }
+  }
+}

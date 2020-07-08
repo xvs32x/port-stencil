@@ -1,0 +1,9 @@
+@mixin card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  box-shadow: $card-shadow;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+}
