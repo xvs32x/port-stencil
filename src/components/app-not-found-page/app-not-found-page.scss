@@ -1,10 +1,9 @@
 :host {
+  @include card;
+  display: block;
   width: 200px;
   margin: 0 auto;
   padding: 100px 0;
-  display: block;
   font-weight: bold;
-  background: #fff;
   text-align: center;
-  box-shadow: $card-shadow
 }

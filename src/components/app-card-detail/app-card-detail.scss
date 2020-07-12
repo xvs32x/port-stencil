@@ -19,14 +19,13 @@
 
   .images-box, .main-card {
     @include card;
-    margin-bottom: 30px;
+    margin-bottom: .3%;
   }
 
   @media (max-width: 650px) {
     .title {
       display: block;
       line-height: 20px;
-      padding: 5px 10px;
     }
   }
 }
