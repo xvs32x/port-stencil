@@ -2,204 +2,204 @@
   {
     "id": 8,
     "name": "Виджет для генерации лидов по недвижимости",
-    "preview": "/assets/port-items/8/rmb-video-1.jpg",
+    "preview": "/assets/port-items/8/rmb-video-1",
     "tags": "FULL STACK, NODEJS, NESTJS, VUEJS, VUEX, MYSQL, SOCKET.IO, UIKIT3",
     "images": [
       {
         "name": "Виджет делится на 3 части: бекенд на nestjs, приложение для управления пользователями (лидами) и сам виджет, который встраивается на сайт. Сейчас вы видите список лидов (тестовые данные)",
-        "src": ["/assets/port-items/8/rmb-video-1.jpg"]
+        "src": ["/assets/port-items/8/rmb-video-1"]
       },
       {
         "name": "Есть возможность зарегистрировать пользователя вручную. Например, для добавления администратора",
-        "src": ["/assets/port-items/8/rmb-video-2.jpg"]
+        "src": ["/assets/port-items/8/rmb-video-2"]
       },
       {
         "name": "Виджет доступен на странице ЖК. В нём есть тематическое видео или трансляция, в которой менеджер в онлайн режиме отвечает на вопросы в чате. И сам чат",
-        "src": ["/assets/port-items/8/rmb-video-3.jpg"]
+        "src": ["/assets/port-items/8/rmb-video-3"]
       },
       {
         "name": "Для того чтобы задать вопрос, пользователь проходит несложную процедуру ввода имени и ника",
-        "src": ["/assets/port-items/8/rmb-video-4.jpg"]
+        "src": ["/assets/port-items/8/rmb-video-4"]
       },
       {
         "name": "После чего вводит свой номер телефона",
-        "src": ["/assets/port-items/8/rmb-video-5.jpg"]
+        "src": ["/assets/port-items/8/rmb-video-5"]
       },
       {
         "name": "И подтверждает его паролем из смс",
-        "src": ["/assets/port-items/8/rmb-video-6.jpg"]
+        "src": ["/assets/port-items/8/rmb-video-6"]
       },
       {
         "name": "Сразу после подтверждения номера пользователь может задавать вопросы и комментировать сообщения",
-        "src": ["/assets/port-items/8/rmb-video-7.jpg"]
+        "src": ["/assets/port-items/8/rmb-video-7"]
       },
       {
         "name": "Администраторы в режиме реального времени (SOCKET.IO) могут удалять спам, отвечать на вопросы и просматривать лиды прямо в чате",
-        "src": ["/assets/port-items/8/rmb-video-8.jpg"]
+        "src": ["/assets/port-items/8/rmb-video-8"]
       }
     ]
   },
   {
     "id": 7,
     "name": "Сайт клуба травмотологов-ортопедов",
-    "preview": "/assets/port-items/7/trauma-1.jpg",
+    "preview": "/assets/port-items/7/trauma-1",
     "tags": "FULL STACK, NODEJS, NESTJS, ANGULAR, NGRX, RXJS, MYSQL, REDIS, SOCKET.IO, UIKIT3",
     "images": [
       {
         "name": "Сайт представляет собой одностраничное приложение - лендинг. Каждая страница - это html(!РЕДАКТИРУЮЩИЙСЯ в АДМИНКЕ и ХРАНЯЩИЙСЯ в БД), в который можно вставить заранее написанные виджеты - компоненты angular. Каждый такой виджет - самостоятельный контейнер, объединяющий в себе отображение, логику, стейт и общение с API. На скриншоте ниже пример редактора со встроенными виджетами, а затем, как это всё выглядит на клиенте",
-        "src": ["/assets/port-items/7/trauma-11.jpg"]
+        "src": ["/assets/port-items/7/trauma-11"]
       },
       {
         "name": "Виджет со списком мероприятий и паджинацией. Далее по списку его вариации в зависимости от указанных настроек. В данном случае - будущие мероприятия",
-        "src": ["/assets/port-items/7/trauma-2.jpg"]
+        "src": ["/assets/port-items/7/trauma-2"]
       },
       {
         "name": "Прошедшие мероприятия (отдельная паджинация)",
-        "src": ["/assets/port-items/7/trauma-3.jpg"]
+        "src": ["/assets/port-items/7/trauma-3"]
       },
       {
         "name": "Видео-лекции (отдельная паджинация)",
-        "src": ["/assets/port-items/7/trauma-4.jpg"]
+        "src": ["/assets/port-items/7/trauma-4"]
       },
       {
         "name": "Трансляции оффлайн мероприятий (отдельная паджинация)",
-        "src": ["/assets/port-items/7/trauma-5.jpg"]
+        "src": ["/assets/port-items/7/trauma-5"]
       },
       {
         "name": "Список участников клуба с поиском и детальной карточкой",
-        "src": ["/assets/port-items/7/trauma-6.jpg", "/assets/port-items/7/trauma-10.jpg"]
+        "src": ["/assets/port-items/7/trauma-6", "/assets/port-items/7/trauma-10"]
       },
       {
         "name": "Детальная страница мероприятия с онлайн трансляцией, комментариями и голосованием. Комментарии и голосования обновляются в режиме реального времени средствами SOCKET.IO. Комментарии имеют бесконечный уровень цитирования",
-        "src": ["/assets/port-items/7/trauma-7.jpg", "/assets/port-items/7/trauma-8.jpg"]
+        "src": ["/assets/port-items/7/trauma-7", "/assets/port-items/7/trauma-8"]
       },
       {
         "name": "Профиль участника с возможностью загрузки аватарки и кропом",
-        "src": ["/assets/port-items/7/trauma-9.jpg"]
+        "src": ["/assets/port-items/7/trauma-9"]
       }
     ]
   },
   {
     "id": 6,
     "name": "Конструктор Eventarium - платформа для сайтов различных медицинских сообществ",
-    "preview": "/assets/port-items/6/eventarium-2.jpg",
+    "preview": "/assets/port-items/6/eventarium-2",
     "tags": "FULL STACK, CODEIGNITER, JS, PHP, LESS",
     "images": [
       {
         "name": "Множество настроек проектов и мероприятий. Полная мультиязычность",
-        "src": ["/assets/port-items/6/eventarium-8.jpg"]
+        "src": ["/assets/port-items/6/eventarium-8"]
       },
       {
         "name": "Гибкая настройка тем оформления для каждого сайта (построено на LESS)",
-        "src": ["/assets/port-items/6/eventarium-4.jpg"]
+        "src": ["/assets/port-items/6/eventarium-4"]
       },
       {
         "name": "Регистрация участников, кастомные поля профиля для каждого сайта и онлайн оплата Яндекс.Касса",
-        "src": ["/assets/port-items/6/eventarium-5.jpg", "/assets/port-items/6/eventarium-6.jpg"]
+        "src": ["/assets/port-items/6/eventarium-5", "/assets/port-items/6/eventarium-6"]
       },
       {
         "name": "Фотогаларея участников",
-        "src": ["/assets/port-items/6/eventarium-7.jpg"]
+        "src": ["/assets/port-items/6/eventarium-7"]
       }
     ]
   },
   {
     "id": 5,
     "name": "Система оффлайн регистрации и печати для участников мероприятий",
-    "preview": "/assets/port-items/5/regmaster-1.jpg",
+    "preview": "/assets/port-items/5/regmaster-1",
     "tags": "FULL STACK, CODEIGNITER, JS, PHP, LESS, OAuth 2.0",
     "images": [
       {
         "name": "Гибкая система импорта и экспорта пользователей, в том числе работа с онлайн API сайта",
-        "src": ["/assets/port-items/5/regmaster-2.jpg"]
+        "src": ["/assets/port-items/5/regmaster-2"]
       },
       {
         "name": "Гибкое управление шаблонами печати, редактирование через TinyMCE и вставка динамических полей",
-        "src": ["/assets/port-items/5/regmaster-3.jpg", "/assets/port-items/5/regmaster-4.jpg"]
+        "src": ["/assets/port-items/5/regmaster-3", "/assets/port-items/5/regmaster-4"]
       },
       {
         "name": "CRUD анкеты участника с возможностью быстрой печати активных шаблонов на принтер. Печать осуществляется через сервер, принтер и ip каждой регистрационной машины связаны",
-        "src": ["/assets/port-items/5/regmaster-5.jpg"]
+        "src": ["/assets/port-items/5/regmaster-5"]
       },
       {
         "name": "Пример работы изнутри и распечатанный бейдж",
-        "src": ["/assets/port-items/5/regmaster-6.jpg"]
+        "src": ["/assets/port-items/5/regmaster-6"]
       }
     ]
   },
   {
     "id": 4,
     "name": "Roomberry - CRM система для застройщиков",
-    "preview": "/assets/port-items/4/roomberry-1.jpg",
+    "preview": "/assets/port-items/4/roomberry-1",
     "tags": "AngularJS, RxJs, Vue.js, Vuex",
     "images": [
       {
         "name": "Канбан для сделок с перемещением по статусам воронки и фильтром",
-        "src": ["/assets/port-items/4/roomberry-2.jpg"]
+        "src": ["/assets/port-items/4/roomberry-2"]
       },
       {
         "name": "Просмотр и прослушивание обращений от клиентов с оповещением через PUSH",
-        "src": ["/assets/port-items/4/roomberry-3.jpg"]
+        "src": ["/assets/port-items/4/roomberry-3"]
       },
       {
         "name": "Календарь с различными типами событий + привязкой сделок и клиентов",
-        "src": ["/assets/port-items/4/roomberry-4.jpg"]
+        "src": ["/assets/port-items/4/roomberry-4"]
       },
       {
         "name": "Функциональная страница сделки с привязкой контактов, таймлайном, объектами и т.д.",
-        "src": ["/assets/port-items/4/roomberry-5.jpg", "/assets/port-items/4/roomberry-6.jpg"]
+        "src": ["/assets/port-items/4/roomberry-5", "/assets/port-items/4/roomberry-6"]
       }
     ]
   },
   {
     "id": 3,
     "name": "Прсмоторщик PDF презентаций для медицинских мероприятий. Работает с Rest API",
-    "preview": "/assets/port-items/3/presentator-1.jpg",
+    "preview": "/assets/port-items/3/presentator-1",
     "tags": "Windows 10, Windows Universal, C#",
     "images": [
       {
         "name": "PDF динамически преобразуются в изображения и открываются в слайдере",
-        "src": ["/assets/port-items/3/presentator-2.jpg"]
+        "src": ["/assets/port-items/3/presentator-2"]
       },
       {
         "name": "Изображения выводятся на большие панели с тач дисплеем, которые находятся в одной локальной сети с сервером, раздающим статику. Немного админского треша из песочницы :)",
-        "src": ["/assets/port-items/3/presentator-3.jpg"]
+        "src": ["/assets/port-items/3/presentator-3"]
       }
     ]
   },
   {
     "id": 2,
     "name": "Анализ рынка баров Москвы и отображение отчётов на карте, в том числе тепловой",
-    "preview": "/assets/port-items/2/wine-1.jpg",
+    "preview": "/assets/port-items/2/wine-1",
     "tags": "Angular, Angular CLI, RxJS, TypeScript, Semantic UI",
     "images": [
       {
         "name": "Автоматическое нахождение оптимальных точек для размещения новых баров, учитывая близость метро, плотность населения, окружающих бизнес центров и т.д.",
-        "src": ["/assets/port-items/2/wine-2.jpg"]
+        "src": ["/assets/port-items/2/wine-2"]
       },
       {
         "name": "Детальный просмотр степени загруженности баров. Данные честно спарсены с google :)",
-        "src": ["/assets/port-items/2/wine-3.jpg"]
+        "src": ["/assets/port-items/2/wine-3"]
       }
     ]
   },
   {
     "id": 1,
     "name": "Онлайн видео чат с интерактивным просмотром презентаций и онлайн эфиром",
-    "preview": "/assets/port-items/1/sc-1.jpg",
+    "preview": "/assets/port-items/1/sc-1",
     "tags": "Angular, NestJS, NGRX, Angular CLI, Angular Material, Angular Flex Layout, RxJS, TypeScript, WebRTC",
     "images": [
       {
         "name": "Двухоконный режим для удобной навигации админом",
-        "src": ["/assets/port-items/1/sc-2.jpg"]
+        "src": ["/assets/port-items/1/sc-2"]
       },
       {
         "name": "Загрузка офисных презентаций и конвертация в изображения через внешний сервис",
-        "src": ["/assets/port-items/1/sc-3.jpg"]
+        "src": ["/assets/port-items/1/sc-3"]
       },
       {
         "name": "Приглашение спикеров для участия в онлайн встрече",
-        "src": ["/assets/port-items/1/sc-4.jpg"]
+        "src": ["/assets/port-items/1/sc-4"]
       },
       {
         "name": "А также указка для удобного объяснения деталей слайда, которую снять не удалось...)))"
