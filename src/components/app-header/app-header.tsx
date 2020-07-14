@@ -17,6 +17,7 @@ export class AppHeader implements ComponentInterface {
         <a
           href="https://github.com/xvs32x"
           target="_blank"
+          rel="noreferrer"
         >
           <img src="/assets/icon/github.png"
                alt="github"

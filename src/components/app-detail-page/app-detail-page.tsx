@@ -13,10 +13,11 @@ export class AppDetailPage implements ComponentInterface {
   @State() card: CardItemI;
 
   async componentWillLoad(): Promise<void> {
-    console.log(this.match);
     this.card = await Axios.get('/assets/data.json')
       .then(res => res.data)
-      .then(items => items.find(item => item.id === +this.match.params.id))
+      .then(items => {
+        return items.find(item => item.id === +this.match.params.id);
+      })
   }
   render() {
     return (

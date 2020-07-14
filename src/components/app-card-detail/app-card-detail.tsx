@@ -24,9 +24,9 @@ export class AppCardDetail implements ComponentInterface {
             <div class="images-box">
               <div class="title">{cardImage.name}</div>
               <div class="preview">
-                {cardImage.src.map(image => (
+                {cardImage.src ? cardImage.src.map(image => (
                   <img src={image} alt={cardImage.name}/>
-                ))}
+                )) : null}
               </div>
             </div>
           ))}

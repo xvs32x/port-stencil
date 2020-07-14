@@ -22,5 +22,8 @@ export const config: Config = {
         'src/global/mixins.scss',
       ]
     }),
+  ],
+  copy: [
+    { src: 'robots.txt' }
   ]
 };
