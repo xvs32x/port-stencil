@@ -5,8 +5,8 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
-import { CardItemI, } from "./models/card-item";
-import { MatchResults, } from "@stencil/router";
+import { CardItemI } from "./models/card-item";
+import { MatchResults } from "@stencil/router";
 export namespace Components {
     interface AppCard {
         "card": CardItemI;

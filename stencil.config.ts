@@ -1,5 +1,6 @@
 import { Config } from '@stencil/core';
 import { sass } from '@stencil/sass';
+import nodePolyfills from 'rollup-plugin-node-polyfills';
 
 // https://stenciljs.com/docs/config
 
@@ -10,9 +11,7 @@ export const config: Config = {
   outputTargets: [
     {
       type: 'www',
-      // comment the following line to disable service workers in production
-      // serviceWorker: null,
-      baseUrl: 'https://nagser.ru/'
+      baseUrl: 'http://nagser.ru/',
     }
   ],
   plugins: [
@@ -25,5 +24,10 @@ export const config: Config = {
   ],
   copy: [
     { src: 'robots.txt' }
-  ]
+  ],
+  rollupPlugins: {
+    after: [
+      nodePolyfills(),
+    ]
+  }
 };
