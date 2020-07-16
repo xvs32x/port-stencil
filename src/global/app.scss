@@ -4,3 +4,13 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   background: #EBEBEB;
 }
+
+a, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+app-header a, app-header a:visited {
+  color: $primary-color-inverse;
+  text-transform: uppercase;
+}

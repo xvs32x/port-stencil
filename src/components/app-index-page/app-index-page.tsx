@@ -1,6 +1,5 @@
 import { Component, ComponentInterface, h, State } from '@stencil/core';
 import { CardItemI } from '../../models/card-item';
-import Axios from 'axios';
 
 @Component({
   tag: 'app-index-page',
@@ -10,8 +9,9 @@ import Axios from 'axios';
 export class AppIndexPage implements ComponentInterface {
   @State() cards: CardItemI[] = [];
 
-  async componentWillLoad(): Promise<void> {
-    this.cards = await Axios.get('assets/data.json').then(res => res.data)
+  async componentWillLoad(): Promise<any> {
+    this.cards = await fetch('/assets/data.json')
+      .then(res => res.json());
   }
 
   render() {

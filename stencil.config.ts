@@ -11,7 +11,8 @@ export const config: Config = {
   outputTargets: [
     {
       type: 'www',
-      baseUrl: 'http://nagser.ru/',
+      serviceWorker: null,
+      baseUrl: 'https://myapp.local/',
     }
   ],
   plugins: [

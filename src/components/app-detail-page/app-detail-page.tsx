@@ -1,6 +1,5 @@
 import { Component, ComponentInterface, Host, h, State, Prop } from '@stencil/core';
 import { CardItemI } from '../../models/card-item';
-import Axios from 'axios';
 import { MatchResults } from '@stencil/router';
 
 @Component({
@@ -12,17 +11,16 @@ export class AppDetailPage implements ComponentInterface {
   @Prop() match: MatchResults;
   @State() card: CardItemI;
 
-  async componentWillLoad(): Promise<void> {
-    this.card = await Axios.get('/assets/data.json')
-      .then(res => res.data)
-      .then(items => {
-        return items.find(item => item.id === +this.match.params.id);
-      })
+  async componentWillLoad(): Promise<any> {
+    this.card = await fetch('/assets/data.json')
+      .then(res => res.json())
+      .then(res => res.find(item => item.id === +this.match.params.id));
   }
+
   render() {
     return (
       <Host>
-        <app-card-detail card={this.card} />
+        {<app-card-detail card={this.card}/>}
       </Host>
     );
   }

@@ -1,11 +1,14 @@
 :host {
 
-  a, a:visited {
-    @include card;
+  @include card;
 
-    &:hover {
-      transform: scale(1);
-    }
+  a, a:visited {
+    color: #000;
+    text-decoration: none;
+  }
+
+  &:hover {
+    transform: scale(1);
   }
 
   .title {
