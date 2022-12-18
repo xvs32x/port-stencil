@@ -18,7 +18,7 @@
     "rollup-plugin-node-polyfills": "^0.2.1",
     "sharp": "^0.31.2",
     "workbox-build": "4.3.1",
-    "log4js": "^6.3.0"
+    "log4js": "^6.4.0"
   },
   "license": "Commercial",
   "dependencies": {
